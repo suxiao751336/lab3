@@ -7,7 +7,7 @@ var connection =mysql.createConnection({
 	
 	host: 'us-cdbr-iron-east-05.cleardb.net',
 	user: 'ba7c7911ddf522',
-	password: '4847e5c8 ',
+	password: '4847e5c8',
 	database: 'heroku_9d1a16551a2b098'
 });
 
