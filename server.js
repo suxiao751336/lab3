@@ -16,7 +16,7 @@ var pool  = mysql.createPool({
 		console.log('error',err);
 		throw err;
 	}
-		response.send(['hello Mr xiao!!!',rows]);
+		response.send(['hello Mr!!!',rows]);
   });
 });
 // var connection =mysql.createConnection({
