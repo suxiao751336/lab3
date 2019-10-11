@@ -6,9 +6,9 @@ var app = express();
 var connection =mysql.createConnection({
 	
 	host: 'us-cdbr-iron-east-05.cleardb.net',
-	user: 'b23a34da9fe379',
-	password: '68882ca0',
-	database: 'heroku_c595c5d7e6b1b97'
+	user: 'ba7c7911ddf522',
+	password: '4847e5c8 ',
+	database: 'heroku_9d1a16551a2b098'
 });
 
 connection.connect();
@@ -18,7 +18,7 @@ connection.connect();
 
 
 app.get('/', function(request,response){
-	 connection.query('select * from jing',function(err,rows,fields){
+	 connection.query('select * from suxiaodb',function(err,rows,fields){
 	    if(err){
 		console.log('error',err);
 		throw err;
