@@ -23,7 +23,7 @@ app.get('/', function(request,response){
 		console.log('error',err);
 		throw err;
 	}
-		response.send(['hello world!!!',rows]);
+		response.send(['hello Mr xiao!!!',rows]);
 		
 	
 });
